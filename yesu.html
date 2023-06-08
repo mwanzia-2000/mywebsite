@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<h1>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="color.css">
+</h1>
+<body>
+<button>switch color</button>
+<script type="text/javascript">
+	var color=["#222f3e","#f368e0","#222f3e","#222f3e","#5f27cd","#10ac84","#ffff00","#00ffff"];
+	var i =0;
+	document.querySelector("button").addEventListener("click",function(){
+		i=i<color.length ? ++i:0;
+		document.querySelector("body").style.background=color[i]})
+	</script>
+
+
+
+</script>	
+	
+</body>
+</html>
